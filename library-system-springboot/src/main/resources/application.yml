@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+
+app:
+  borrow:
+    defaultDays: 30
+  jwt:
+    # IMPORTANT: please change this secret in your own repo
+    secret: "CHANGE_ME_TO_A_LONG_RANDOM_SECRET_>=_32_CHARS"
+    expireMinutes: 720

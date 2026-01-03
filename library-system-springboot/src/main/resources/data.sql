@@ -1,0 +1,2 @@
+-- Default admin user is created by DataInitializer (see code).
+-- You can add more seed data here if you switch to spring.sql.init.mode=always
